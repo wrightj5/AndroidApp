@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="checkbox"
+        android:summary="Tick for sound"
+        android:title="Sounds" >
+    </CheckBoxPreference>
+
+    <EditTextPreference
+        android:key="name"
+        android:summary="Enter Your Name"
+        android:title="Enter Your Name" >
+    </EditTextPreference>
+
+    <ListPreference
+        android:entries="@+array/list"
+        android:key="list"
+        android:summary="Select from..."
+        android:title="Choose the radius" 
+        android:entryValues="@+array/radValues">
+    </ListPreference>
+
+</PreferenceScreen>

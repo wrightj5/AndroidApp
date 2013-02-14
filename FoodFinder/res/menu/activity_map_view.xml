@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/preferences"
+        android:orderInCategory="100"
+        android:title="Preferences"/>
+    
+     <item
+        android:id="@+id/about"
+        android:orderInCategory="100"
+        android:title="About Me"/>
+    
+     
+       <item
+        android:id="@+id/favourites"
+        android:orderInCategory="100"
+        android:title="Favourites"/>
+      
+      
+      
+
+</menu>

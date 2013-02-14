@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget41"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#66000000"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text=".../Map/"
+        android:textColor="#FFFFFF" />
+
+    <RelativeLayout
+        android:id="@+id/widget35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <ToggleButton
+            android:id="@+id/toggleMap"
+            android:layout_width="85dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="6dp"
+            android:textOff="Satellite"
+            android:textOn="Street" />
+
+        <Button
+            android:id="@+id/bRefine"
+            android:layout_width="85dp"
+            android:layout_height="56dp"
+            android:layout_marginLeft="235dp"
+            android:layout_marginTop="6dp"
+            android:text="Advanced" />
+    </RelativeLayout>
+
+    <com.google.android.maps.MapView
+        android:id="@+id/mvMain"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0y-YowR-zOVRjFHbmse5ksq92DJ_Tn3myiwbRfQ"
+        android:clickable="true"
+        android:enabled="true"
+        android:padding="10dp" >
+    </com.google.android.maps.MapView>
+
+</LinearLayout>

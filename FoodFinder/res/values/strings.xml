@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FoodFinder</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="selectcat">Select a Category...</string>
+    <string name="selectplace">Select a Place</string>
+    <string name="selectedplace">selected place</string>
+    <string name="welcome">Welcome Jake</string>
+
+</resources>
